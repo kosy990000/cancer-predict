@@ -8,7 +8,7 @@ TCGA 데이터에서 26개의 암 종류 데이터 전처리
 2. random forest 실제 score  0.59
 
 3. soft voting system 도입
-   Losistic, randomForest, CatBoost, LGBMClassdier 내부 test F1 0.76, Acc 0.76 실제 score 0.60
+   Losistic, randomForest, CatBoost, LGBMClassdier  test F1 0.76, Acc 0.76 실제 score 0.60
 
 4. PudMedBert(pretrained)를 fine Tuning down task로 암 아종 분류 사용
   token이 제한되어 있어 주요한 암 돌연변이 유형을 우선순위로 두고, 100개를 추출함

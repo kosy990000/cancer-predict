@@ -1,4 +1,6 @@
 __pycache_/
 
+catboost_info
+
 data/
 *.csv
